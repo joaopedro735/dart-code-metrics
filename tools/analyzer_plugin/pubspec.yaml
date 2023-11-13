@@ -6,7 +6,10 @@ environment:
   sdk: ">=2.14.0 <3.0.0"
 
 dependencies:
-  dart_code_metrics: 5.7.6
+  dart_code_metrics:
+    git:
+      url: https://github.com/joaopedro735/dart-code-cmetrics
+      ref: 5.7.7
 
 dev_dependencies:
   lints: ^1.0.1

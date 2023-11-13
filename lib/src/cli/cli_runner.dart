@@ -118,7 +118,7 @@ To hide this message pass the 'disable-sunset-warning' option.
       final isUpToDate = packageVersion == latestVersion;
       if (!isUpToDate && latestVersion != null) {
         final changelogLink =
-            'https://github.com/dart-code-checker/dart-code-metrics/releases/tag/$latestVersion';
+            'https://github.com/joaopedro735/dart-code-metrics/releases/tag/$latestVersion';
         _logger.updateAvailable(packageVersion, latestVersion, changelogLink);
       }
       // ignore: avoid_catches_without_on_clauses
