@@ -1,6 +1,7 @@
 name: dart_code_metrics_plugin_loader
 description: This pubspec determines the version of the analyzer plugin to load.
-version: 5.7.6
+publish_to: none
+version: 5.7.8
 
 environment:
   sdk: ">=2.14.0 <3.0.0"
@@ -8,8 +9,8 @@ environment:
 dependencies:
   dart_code_metrics:
     git:
-      url: https://github.com/joaopedro735/dart-code-cmetrics
-      ref: 5.7.7
+      url: https://github.com/joaopedro735/dart-code-metrics
+      ref: 5.7.8
 
 dev_dependencies:
-  lints: ^1.0.1
+  lints: ^3.0.0
